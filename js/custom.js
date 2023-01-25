@@ -1,17 +1,19 @@
-$(".answer").hide();
-$("#no").click(function() {
-    if($(this).is(":checked")) {
-        $(".answer").show();
-    } else {
-        $(".answer").hide();
-    }
-});
+$(".yes").hide();
+$(".no").hide();
 
 $("#yes").click(function() {
     if($(this).is(":checked")) {
-        $(".answer").hide();
+        $(".yes").show();
     } else {
-        $(".answer").hide();
+        $(".yes").hide();
+    }
+});
+
+$("#no").click(function() {
+    if($(this).is(":checked")) {
+        $(".no").hide();
+    } else {
+        $(".no").hide();
     }
 });
 
