@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Signup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	<main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card login-card">
+                        <div class="card-body">
+                            <h4 class="text-center mb-5">Sign Up</h4>
+                            <ul class="nav nav-pills d-flex justify-content-center" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#company">Company</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" data-bs-toggle="tab" href="#employee">Employee</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="company" class="container tab-pane active">
+                                    <br>
+                                    <form action="" method="post">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <label for="company_name" class="form-label">Company Name</label>
+                                                <input type="text" class="form-control" id="company_name" name="company_name">
+                                            </div>
+                                            
+                                            <div class="col-lg-6 mt-3 mt-lg-0">
+                                                <label for="representative_name" class="form-label">Representative Name</label>
+                                                <input type="text" class="form-control" id="representative_name" name="representative_name">
+                                            </div>
+    
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="designation" class="form-label">Designation</label>
+                                                <input type="text" class="form-control" id="designation" name="designation">
+                                            </div>
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="website" class="form-label">Website</label>
+                                                <input type="text" class="form-control" id="website" name="website">
+                                            </div>
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="email" class="form-label">Email:</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                            </div>
+                                            <div class="col-lg-6 mt-3 mt-lg-auto">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="yes" value="1">
+                                                    <label class="form-check-label" for="yes">Yes</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="no" value="1">
+                                                    <label class="form-check-label" for="no">No</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mt-3 answer">
+                                                <div class="row">
+                                                    <div class="col-lg-5">
+                                                        <label for="offical_email" class="form-label">Email</label>
+                                                        <input type="text" name="offical_email" id="offical_email" class="form-control"/>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <label for="otp" class="form-label">OTP</label>
+                                                        <input type="text" name="otp" id="otp" class="form-control"/>
+                                                    </div>
+                                                    <div class="col-lg-2 mt-lg-auto">
+                                                        <button type="submit" class="btn btn-primary">Verify</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div id="employee" class="container tab-pane fade"><br>
+                                  
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+
+</html>
