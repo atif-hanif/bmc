@@ -126,9 +126,9 @@ li {
 	color: #fff;
 }
 
-.sidebar ul {
+/* .sidebar ul {
 	height: 100%;
-}
+} */
 
 .sidebar > ul {
 	width: 200px;
@@ -217,4 +217,9 @@ i {
 
 .eyewear li .icon-btn {
 	background-color: #fff;
+}
+
+.bottom-btn {
+	position: fixed;
+	bottom: 20px;
 }
