@@ -99,7 +99,7 @@ body {
 /* Home */
 
 .home {
-	background: #fff;
+	background: radial-gradient(circle, rgb(30, 33, 34) 23%, rgb(0, 3, 5) 77%);
 }
 
 .sidebar {
@@ -107,7 +107,7 @@ body {
 	margin: 0 !important;
 	padding: 0 !important;
 	position: fixed;
-	background-color: #225fe8;
+	background-color: #000;
 }
 
 a {
@@ -120,7 +120,7 @@ a {
 }
 
 li {
-	padding: 20px 35px 0 35px;
+	padding: 10px 35px;
 	width: 100%;
 	list-style-type: none;
 	color: #fff;
@@ -143,22 +143,23 @@ li {
 }
 
 .sidebar > ul > li:hover {
-	background-color: #0f1e41;
+	background-color: #999;
 }
 
 .sidebar > ul > li > ul {
 	display: none;
 	position: absolute;
 	right: -250px;
-	top: 0;
+	top: -80px;
 	padding: 0 !important;
 	width: 250px;
-	background-color: #193d8e;
+	background-color: #000;
 }
 
 .sidebar > ul > li > ul > li {
 	float: left;
 	width: 50%;
+	padding: 10px;
 }
 
 .sidebar > ul > li > ul > li > a > img {
@@ -179,17 +180,7 @@ i {
 }
 
 .sidebar > ul > li > ul >li:hover {
-	background-color: #0f1e41;
-}
-
-.sidebar > ul > li > ul > li > ul {
-	display: none;
-	position: absolute;
-	right: -250px;
-	padding: 0 !important;
-	top: 0;
-	width: 250px;
-	background-color: #112551;
+	background-color: #666;
 }
 
 .sidebar > ul > li > ul > li:hover ul {
@@ -197,21 +188,33 @@ i {
 }
 
 .sidebar > ul > li > ul > li > ul > li:hover {
-	background-color: #0f1e41;
+	background-color: #666;
 }
 
-.sidebar > ul > li > ul > li ul li ul li {
-	border-bottom: 1px dotted #fff;
-	padding: 20px;
-}
 
 .side-icons {
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
-	background-color: black;
+	background-color: #666;
 	font-size: 18px;
 	padding: 10px 9px;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.icon-btn {
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+
+.icon-btn img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.eyewear li .icon-btn {
+	background-color: #fff;
 }
