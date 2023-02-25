@@ -18,7 +18,6 @@ body {
 }
 
 
-
 .login-card-description {
 	font-size: 25px;
 	color: #000;
@@ -95,4 +94,124 @@ body {
 	bottom: 1rem;
 	text-align: center;
 	width: 100%;
+}
+
+/* Home */
+
+.home {
+	background: #fff;
+}
+
+.sidebar {
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	position: fixed;
+	background-color: #225fe8;
+}
+
+a {
+	color: #fff !important;
+	text-decoration: none !important;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+li {
+	padding: 20px 35px 0 35px;
+	width: 100%;
+	list-style-type: none;
+	color: #fff;
+}
+
+.sidebar ul {
+	height: 100%;
+}
+
+.sidebar > ul {
+	width: 200px;
+	position: relative;
+	padding: 0 !important;
+	overflow: visible;
+}
+
+.sidebar > ul > li {
+	display: flex;
+	justify-content: center;
+}
+
+.sidebar > ul > li:hover {
+	background-color: #0f1e41;
+}
+
+.sidebar > ul > li > ul {
+	display: none;
+	position: absolute;
+	right: -250px;
+	top: 0;
+	padding: 0 !important;
+	width: 250px;
+	background-color: #193d8e;
+}
+
+.sidebar > ul > li > ul > li {
+	float: left;
+	width: 50%;
+}
+
+.sidebar > ul > li > ul > li > a > img {
+	width: auto;
+}
+
+a:hover {
+	color: #fbfbfb !important;
+}
+
+i {
+	margin-top: 4px;
+	padding-left: 8px;
+}
+
+.sidebar > ul > li:hover > ul {
+	display: block;
+}
+
+.sidebar > ul > li > ul >li:hover {
+	background-color: #0f1e41;
+}
+
+.sidebar > ul > li > ul > li > ul {
+	display: none;
+	position: absolute;
+	right: -250px;
+	padding: 0 !important;
+	top: 0;
+	width: 250px;
+	background-color: #112551;
+}
+
+.sidebar > ul > li > ul > li:hover ul {
+	display: block;
+}
+
+.sidebar > ul > li > ul > li > ul > li:hover {
+	background-color: #0f1e41;
+}
+
+.sidebar > ul > li > ul > li ul li ul li {
+	border-bottom: 1px dotted #fff;
+	padding: 20px;
+}
+
+.side-icons {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	font-size: 18px;
+	padding: 10px 9px;
+	vertical-align: middle;
+	text-align: center;
 }
