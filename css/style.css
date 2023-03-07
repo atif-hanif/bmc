@@ -115,6 +115,7 @@ header {
 
 .top-header {
 	border-bottom: 1px solid #f2f2f2;
+	background: linear-gradient(to top, #d90452, #1E3E59);
 }
 
 .top-header li {
@@ -171,7 +172,7 @@ header {
 	margin: 0 !important;
 	padding: 0 !important;
 	position: fixed;
-	background-color: #000;
+	background-color: #1E3E59;
 	z-index: 1;
 	top: 0px;
 }
