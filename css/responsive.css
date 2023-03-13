@@ -22,4 +22,8 @@
 		margin-top: 10px;
 	}
 
+	.sidebar > ul > li > ul {
+		top: 50px;
+	}
+
 }
