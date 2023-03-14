@@ -222,6 +222,7 @@ li {
 	width: 250px;
 	background-color: #000;
 	z-index: 3;
+	height: 100vw;
 }
 
 .sidebar > ul > li > ul > li {
